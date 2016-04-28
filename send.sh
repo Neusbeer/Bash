@@ -1,2 +1,2 @@
 #!/bin/bash
-tar cf - "$1" | /home/hackneus/workingdir/programs/nc.exe -w 2 -v "$receiver" 13
+tar cf - "$1" | nc -w 2 -v "$receiver" 13
