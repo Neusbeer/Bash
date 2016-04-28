@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -z "$1" ]; then
- echo "No coded string given"
+ echo "No string given"
  exit 1
 fi
 
